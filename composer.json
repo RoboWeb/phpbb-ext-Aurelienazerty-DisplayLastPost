@@ -1,0 +1,54 @@
+{
+    "name": "Aurelienazerty/DisplayLastPost",
+    "type": "phpbb-extension",
+    "description": "Extension which displays the lastest post of the previous page on the top of viewtopic.",
+    "homepage": "http://www.team-azerty.com",
+    "version": "1.2.0",
+    "time": "2017-04-11",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "post"
+    ],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Aurelienazerty",
+            "homepage": "http://www.team-azerty.com",
+            "role": "Main developer"
+        },
+        {
+            "name": "Théonaute",
+            "homepage": "http://www.phpbb-fr.com/",
+            "role": "phpBB 3.0.x initial MOD developer"
+        },
+        {
+            "name": "Kyosuke",
+            "role": "Developer contributor"
+        },
+        {
+            "name": "Raul [ThE KuKa]",
+            "homepage": "http://www.raularroyomonzo.es/",
+            "role": "Spanish Translator"
+        },
+        {
+            "name": "HenLen",
+            "role": "German Translator"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpbb/phpbb": "3.1.*"
+    },
+    "extra": {
+        "display-name": "Display Last Post",
+        "soft-require": {
+            "phpbb/phpbb": "3.1.*"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/displaylastpost",
+            "filename": "version_check"
+        }
+    }
+}
